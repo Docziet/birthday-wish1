@@ -1,5 +1,5 @@
 import React from 'react';
-import WishForm from './components/WishForm';
+import WishForm from './components/wishForm';
 import './App.css'; // You can create or modify this for styling
 
 function App() {

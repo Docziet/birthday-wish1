@@ -1,5 +1,4 @@
 import React, { useState, FormEvent } from 'react';
-import './App.css';
 
 interface WishFormData {
     guestName: string;
@@ -53,7 +52,7 @@ const WishForm: React.FC = () => {
         <form name="birthdayWishes" onSubmit={handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field">
             {/* The following hidden input is important for Netlify Forms */}
             <input type="hidden" name="form-name" value="birthdayWishes" />
-            <p style={{ display: 'none' }}>
+            <p>
                 <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
             </p>
 
